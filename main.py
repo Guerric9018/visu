@@ -1,4 +1,5 @@
 import pandas as pd
+import altair as alt
 
 def parse_csv(file):
     data = pd.read_csv(file, sep=';')
